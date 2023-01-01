@@ -2,12 +2,13 @@ import React from 'react'
 
 function MidSection() {
     return (
-        <div className='  text-green-600  '>
+        <div className='    '>
             <div  className=" drop-shadow-lg justify-center grid grid-row-2 md:grid-cols-2 gap-9">
-                <div  className="md:hover:scale-105 md:transition md:duration-300 md:ease-out bg-green-300 rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
+                <div  className="md:hover:scale-105 md:transition md:duration-300 md:ease-out bg-opacity-5 bg-white  rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
                     <div  className="text-4xl md:text-5xl py-7">About Me</div>
                     <div  className="text-2xl leading-snug">
-                    I'm a junior at Brown Univeristy broadly interested
+                    
+                    I'm a junior at Brown University broadly interested
                     in computer graphics and machine learning.
                      I spend a fair amount of time
                      outside of school woodworking, cooking, and following  
@@ -15,7 +16,7 @@ function MidSection() {
                 <span class="link link-underline link-underline-black font-bold"> <em>actual</em> </span></a> football.
                     </div>
                 </div>
-                <div  className=" md:hover:scale-105 md:transition md:duration-300 md:ease-out  drop-shadow-lg bg-green-300 rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
+                <div  className=" md:hover:scale-105 md:transition md:duration-300 md:ease-out bg-opacity-5 bg-white  drop-shadow-lg  rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
                     <div className="text-4xl md:text-5xl py-7">Work</div>
                     <div className="text-2xl leading-snug">
                     During the school year,
@@ -26,7 +27,7 @@ function MidSection() {
                     </div>
                 </div>
                
-                <div  className=" md:hover:scale-105 md:transition md:duration-300 md:ease-out drop-shadow-lg bg-green-300 rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
+                <div  className=" md:hover:scale-105 md:transition md:duration-300 md:ease-out drop-shadow-lg bg-opacity-5 bg-white  rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
                     <div className="text-4xl md:text-5xl py-7">Writing</div>
                     <div className="text-2xl leading-snug">
                     If I ever get back into writing, you can find me on <a href="https://medium.com/@saripallikrishi" className=''>
@@ -34,7 +35,7 @@ function MidSection() {
                     
                     </div>
                 </div>
-                <div  className=" md:hover:scale-105 md:transition md:duration-300 md:ease-out drop-shadow-lg bg-green-300 rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
+                <div  className=" md:hover:scale-105 md:transition md:duration-300 md:ease-out drop-shadow-lg bg-opacity-5 bg-white rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
                     <div className="text-4xl md:text-5xl py-7">Contact</div>
                     <div className="text-2xl leading-snug">
                     Send me an email at	ksaripal@cs.brown.edu, or message me on <a href="https://twitter.com/krishi_sa" className=''>
@@ -42,14 +43,6 @@ function MidSection() {
                     
                     </div>
                 </div>
-                {/* <div className="leading-snug bg-green-300 rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
-                    <div className="text-4xl md:text-5xl py-7">Contact Me</div>
-                    <div className="text-2xl">
-                    Send me an email at krishi_saripalli@brown.edu, or follow and message
-                    me on <a href="https://twitter.com/krishi_sa" className=''>
-                <span  class="link link-underline link-underline-black font-bold"> Twitter</span></a>.
-                    </div>
-                </div> */}
             </div>
         </div>
     )
