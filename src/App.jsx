@@ -18,7 +18,7 @@ const App = () => (
        <div className="sticky top-0 mx-4 md:mx-20 z-40">
             <NavBar></NavBar>
         </div>
-      <div id="fadeDiv" className=" three px-9 md:px-32 ">
+      <div id="fadeDiv" className=" three px-16 md:px-32 ">
         {/* <div className="inline-flex flex-col md:h-[80vh] md:flex-row md:pt-5"> */}
         {/* <HeroSection className=''></HeroSection> */}
         {/* <Canvas className=' pb-32'>

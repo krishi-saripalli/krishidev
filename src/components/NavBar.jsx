@@ -8,8 +8,8 @@ function NavBar() {
           
           <div class="  flex items-center justify-evenly md:justify-between space-x-10 text-md md:text-xl">
           <div className=''>
-            <a href="#top" className=' group text-md md:text-2xl  md:mb-3 '>
-              <span class="font-bold">Krishi</span>
+            <a href="#top" className=' group md:mb-3 '>
+              <span class="material-symbols-outlined text-md md:text-3xl">forest</span>
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-white "></span>
             </a>        
           </div>
