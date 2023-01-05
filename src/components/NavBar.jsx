@@ -6,7 +6,7 @@ function NavBar() {
       <div class=" py-5  bg-transparent ">
         <div class="px-20">
           
-          <div class="  flex items-center justify-between space-x-10 text-md md:text-xl">
+          <div class="  flex items-center justify-evenly md:justify-between space-x-10 text-md md:text-xl">
           <div className=''>
             <a href="#top" className=' group md:mb-3 '>
               <span class="material-symbols-outlined text-md md:text-4xl">forest</span>
