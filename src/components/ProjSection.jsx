@@ -4,7 +4,9 @@ import { GrGithub, GrLinkedinOption} from 'react-icons/gr';
 function ProjSection() {
     return (
         <div className='py-20'>
-            <h1 className='text-center text-5xl md:text-6xl px-7 py-3 bg-opacity-10 bg-white rounded-lg col-span-1'>What I'm Working On</h1>
+            <div className="md:hover:scale-105 md:transition md:duration-300 md:ease-out">
+                <h1 className='text-center text-4xl md:text-6xl px-7 py-3 bg-opacity-10 bg-white rounded-lg col-span-1 '>In The Works</h1>
+            </div>
             <div  className=" drop-shadow-lg justify-center grid grid-rows-2 gap-9 py-7">
 
                 <div  className=" grid grid-row-2 md:grid-cols-2 md:hover:scale-105 md:transition md:duration-300 md:ease-out bg-opacity-5 bg-white  rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">

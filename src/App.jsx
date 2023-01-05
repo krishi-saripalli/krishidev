@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroSection from './components/HeroSection';
 import NavBar from './components/NavBar';
 import MidSection from './components/MidSection';
 import Footer from './components/Footer';
