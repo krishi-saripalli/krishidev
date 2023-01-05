@@ -22,6 +22,9 @@ html {
 }
 
 
+
+
+
 body {
   animation: fadeIn ease 1s;
   animation-iteration-count: 1;
@@ -38,7 +41,8 @@ body {
     }
 
     .link-underline-black {
-        background-image: linear-gradient(transparent, transparent), linear-gradient(#687b99, #687b99)
+        background-image: linear-gradient(transparent, transparent), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3))
+        
     }
 
     .link-underline:hover {

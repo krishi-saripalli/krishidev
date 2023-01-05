@@ -2,12 +2,12 @@ import React from 'react'
 
 function MidSection() {
     return (
-        <div className='    '>
-            <h1 className='text-5xl md:text-6xl py-7'>Krishi Saripalli</h1>
-            <div  className=" drop-shadow-lg justify-center grid grid-row-2 md:grid-cols-2 gap-9">
+        <div className='py-7'>
+            <h1 className='text-center text-5xl md:text-6xl px-7 py-3 bg-opacity-10 bg-white rounded-lg col-span-1'>Welcome! I'm Krishi</h1>
+            <div  className=" justify-center grid grid-row-2 md:grid-cols-2 gap-9 py-7">
                 <div  className="md:hover:scale-105 md:transition md:duration-300 md:ease-out bg-opacity-5 bg-white  rounded-lg p-5 md:p-7 row-span-1 md:col-span-1">
-                    <div  className="text-4xl md:text-5xl py-7">About Me</div>
-                    <div  className="text-lg md:text-2xl leading-snug">
+                    <div  className="text-4xl md:text-5xl py-7 ">About Me</div>
+                    <div  className="text-lg md:text-2xl leading-snug ">
                     
                     I'm a junior at Brown University broadly interested
                     in computer graphics and machine learning.

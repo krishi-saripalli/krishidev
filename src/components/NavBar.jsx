@@ -3,13 +3,13 @@ import React from 'react'
 function NavBar() {
   return (
     <nav class="backdrop-blur-md">
-      <div class=" py-7  bg-transparent ">
-        <div class="">
+      <div class=" py-5  bg-transparent ">
+        <div class="px-20">
           
-          <div class="  flex items-center justify-evenly md:justify-between space-x-10 text-md md:text-xl">
+          <div class="  flex items-center justify-between space-x-10 text-md md:text-xl">
           <div className=''>
             <a href="#top" className=' group md:mb-3 '>
-              <span class="material-symbols-outlined text-md md:text-3xl">forest</span>
+              <span class="material-symbols-outlined text-md md:text-4xl">forest</span>
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-white "></span>
             </a>        
           </div>
